@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Lato", sans-serif;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  }
+  h1{
+      text-align: center;
+      font-size: 50px;
+      color: aquamarine;
+  }
+  #box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  #box img {
+    max-width: 20rem;
+    max-height: 20rem;
+    transition: all 0.4s;
+    border: 4px transparent;
+    border-radius: 1%;
+  }
